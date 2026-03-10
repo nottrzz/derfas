@@ -1,8 +1,17 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { ArrowRight, Users, Calendar, Trophy, Gamepad2 } from 'lucide-react';
 
 export default function Home() {
   return (
+    <>
+       <Helmet>
+        <title>DERF4S - Komunitas Digital Kreatif Indonesia</title>
+        <meta name="description" content="Bergabunglah dengan DERF4S, komunitas untuk kreator, developer, dan tech enthusiast. Dari pemula sampai mastah, semua punya tempat di sini." />
+        <meta property="og:title" content="DERF4S - Komunitas Digital Kreatif" />
+        <meta property="og:description" content="Temukan teman, belajar, dan berkolaborasi di DERF4S." />
+        <meta property="og:image" content="URL_GAMBAR_LOGO_AND" />
+      </Helmet>
     <div className="space-y-20">
       <section className="h-[30vh] flex flex-col justify-center items-center text-center px-4">
         <h1 className="text-6xl md:text-7xl font-bold mb-4">
@@ -83,6 +92,7 @@ export default function Home() {
         </Link>
       </section>
     </div>
+    </>
   );
 }
 
