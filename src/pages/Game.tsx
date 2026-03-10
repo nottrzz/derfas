@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import SnakeGame from '../Games/SnakeGame';
-import TicTacToe from '../Games/TictacToe';
+import TicTacToe from '../Games/TictacToe.tsx';
 
 type GameTab = 'snake' | 'tictactoe';
 
