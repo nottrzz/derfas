@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
 import { Send, Mail, Phone, Instagram, MapPin, Clock } from 'lucide-react';
 
 export default function Contact() {
@@ -16,7 +16,7 @@ export default function Contact() {
     setFormData(prev => ({ ...prev, [id]: value }));
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     if (!formData.name || !formData.email || !formData.message) {

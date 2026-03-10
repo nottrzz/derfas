@@ -23,8 +23,7 @@ export default function SnakeGame() {
   const [score, setScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const gameLoopRef = useRef<number>();
-  const [canvasSize, setCanvasSize] = useState(400); // default, akan diupdate
+  const [canvasSize, setCanvasSize] = useState(400); // default ye
 
   // Load high score
   useEffect(() => {
