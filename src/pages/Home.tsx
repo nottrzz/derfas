@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Bergabunglah dengan DERF4S, komunitas untuk kreator, developer, dan tech enthusiast. Dari pemula sampai mastah, semua punya tempat di sini." />
         <meta property="og:title" content="DERF4S - Komunitas Digital Kreatif" />
         <meta property="og:description" content="Temukan teman, belajar, dan berkolaborasi di DERF4S." />
-        <meta property="og:image" content="URL_GAMBAR_LOGO_AND" />
+        <meta property="og:image" content="https://c.top4top.io/p_3721pfk1n1.png" />
       </Helmet>
     <div className="space-y-20">
       <section className="h-[30vh] flex flex-col justify-center items-center text-center px-4">

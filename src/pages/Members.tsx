@@ -28,9 +28,9 @@ const members: Member[] = [
   { 
     name: 'Denzz', 
     role: 'Founder', 
-    image: 'https://i.pinimg.com/736x/1f/a7/7f/1fa77f299943becb856e6fb7e73481c6.jpg',
-    instagram: '_denzz',
-    whatsapp: '6281779802449'
+    image: 'https://c.top4top.io/p_3721b9c5i1.jpeg',
+    instagram: 'denzz',
+    whatsapp: '6283113157395'
   },
   { 
     name: 'Ferrrr', 
