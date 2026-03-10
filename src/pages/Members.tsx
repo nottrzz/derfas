@@ -13,8 +13,8 @@ const members: Member[] = [
   { 
     name: 'Ochyyy', 
     role: 'Founder', 
-    // image: 'https://c.top4top.io/p_37212zfea1.jpg',
-    image: 'https://d.top4top.io/p_3721b8tir1.jpeg',
+    image: 'https://c.top4top.io/p_37212zfea1.jpg',
+    // image: 'https://d.top4top.io/p_3721b8tir1.jpeg',
     instagram: '_rzmhr',
     whatsapp: '6281779802449'
   },
